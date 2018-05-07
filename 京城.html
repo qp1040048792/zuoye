@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京城</title>
+	<style>
+	body,h1,ul,li,dl,dd,dt{
+		margin: 0;
+		padding: 0;
+		font-family: 微软雅黑;
+		font-size: 12px;
+		color: #666;
+	}
+	h1{
+		font-weight: normal;
+	}
+	ul{
+		list-style: none;
+	}
+	em,i{
+		font-style: normal;
+	}
+	a{
+		text-decoration: none;
+		color: #4470AD;
+	}
+	img{
+		display: block;
+	}
+	body{
+		font-family: 微软雅黑;
+		font-size: 12px;
+		color: #666;
+	}
+	.clearfix::after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.box{
+		border: 1px solid red;
+		margin: 20px auto;
+		background: #fff;
+		width: 683px;
+		height: 252px;
+		padding: 20px 25px 16px;
+		position: relative;
+	}
+	.box img{
+		float: left;
+		margin-right: 24px;
+	}
+	.box h1{
+		color: #000;
+		font-size: 16px;
+		line-height: 24px;
+		height: 24px;
+		padding-bottom: 8px;
+	}
+	.box h1 em{
+		display: inline-block;
+		width: 28px;
+		height: 19px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		background: url('images/wanben.png');
+		vertical-align: bottom;
+		margin-left: 5px;
+	}
+	.box ul{
+		height: 25px;
+	}
+	.box ul li{
+		float: left;
+		background: url('images/xiaofang.png') no-repeat left;
+		padding-left: 6px;
+		padding-right: 29px;
+	}
+	.box dl{
+		height: 115px;
+		line-height: 25px;
+	}
+	.box dt{
+		float: left;
+	}
+	.box .shouquan{
+		padding-left: 20px;
+	}
+
+
+	.box .star{
+		display: inline-block;
+		background: url('images/xx.png');
+		width: 16px;
+		height: 15px;
+		vertical-align: middle;
+		position: relative;
+		top: -2px;
+	}
+	.box .star1{
+		background-image: url('images/xx1.png');
+	}
+	.box .ren{
+		padding-left: 4px;
+		padding-right: 5px;
+	}
+	.box .b{
+		padding-left: 96px;
+	}
+	.box .b em{
+		color: #BF6161;
+		padding-right: 18px;
+		padding-left: 15px;
+		background: no-repeat left;
+	}
+	.box .b .pinglun{
+		background-image: url('images/p.png');
+	}
+	.box .b .fen{
+		background-image: url('images/fx.png');
+	}
+	.box .button{
+		position: absolute;
+		bottom: 20px;
+		left: 229px;
+	}
+	.box .button button{
+		width: 100px;
+		height: 35px;
+		text-align: center;
+		line-height: 35px;
+		border: none;
+		cursor: pointer;
+		margin-right: 5px;
+	}
+	.button .button1{
+		background: url('images/btn1.png');
+		color: #fff;
+		font-weight: bold;
+	}
+	.button .button2{
+		background: url('images/btn2.png');
+		color: #555;
+		font-weight: bold;
+	}
+	.button a {
+		color: #333;
+		background: url('images/gou.png') no-repeat left;
+		padding-left: 18px;
+		margin-left: 5px;
+		vertical-align: bottom;
+	}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="images/jing.png" alt="">
+		<h1>京城往事 <em>完本</em></h1>
+		<ul>
+			<li><a href="###">文学艺术</a></li>
+			<li>104745字</li>
+			<li>3706点击</li>
+		</ul>
+		<dl>
+			<dt>作　者：</dt>
+			<dd><a href="###">宋涵</a></dd>
+			<dt>出版社：</dt>
+			<dd>某某出版公司</dd>
+			<dt>关键词：</dt>
+			<dd>思考,思考,思考,思考,思考,思考</dd>
+			<dt>授权方：</dt>
+			<dd><a href="###">某某出版公司</a><span class="shouquan">授权作品，不得转载</span></dd>
+			<dt>评　分：</dt>
+			<dd>
+				<span class="star star1"></span>
+				<span class="star star1"></span>
+				<span class="star star1"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+				<span class="ren">3人</span>|
+				<a href="###">我来评分</a>
+				<span class="b"><em class="pinglun">评论<a href="###">(4)</a></em><em class="fen">分享</em></span>
+			</dd>
+		</dl>
+		<div class="button">
+			<button class="button1">阅读</button>
+			<button class="button2">放入书架</button>
+			<a href="###">放入购书单</a>
+		</div>
+	</div>
+</body>
+</html>
